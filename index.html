@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SRS Project</title>
+</head>
+<body>
+    <header>
+        <div class="company-logo">SRS Project</div>
+        <nav class="navbar">
+          <ul class="nav-items">
+            <li class="nav-item"><a href="https://github.com/dastagirS" class="nav-link">by Dastagir Shaikh</a></li>
+            
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+          <h1 style="background-color: rgba(190, 188, 188, 0.562); border-radius: 20px;">SRS Project On Cloud-Based Mobile Messaging And Media Streaming App</h1>
+          <h3>Introduction To The System</h3>
+          <p> This app is a freeware, cross-platform, cloud-based instant messaging (IM) service. The service also provides end-to-end encrypted video calling, VoIP, file sharing and several other features.
+
+            The servers are distributed worldwide to decrease frequent data load with five data centers in different regions.
+            
+             It provides end-to-end encrypted voice and video calls and optional end-to-end encrypted "secret" chats. Cloud chats and groups are encrypted between the app and the server, so that ISPs and other third-parties on the network can't access data, but the servers can. Users can send text and voice messages, make voice and video calls, and share an unlimited number of images, documents, media, user locations, animated stickers, contacts, and audio files. </p>
+      
+            <h3>About Technology</h3>
+            <h4>i)How Cloud Based Messaging Works?</h4>
+            <p> Default messages are cloud-based and can be accessed on any of the user's connected devices. Users can share photos, videos, media, audio messages and other files (up to 2 gigabytes per file). Users can send messages to other users individually or in groups of up to 200,000 members. Sent messages can be edited anytime after they have been sent and can be deleted at any time on both sides. Messages in all chats, including groups and channels, can be set to auto-delete after 24 hours, 7 days or a month, although this will only apply to messages sent after the auto-delete timer is enabled.
+
+                It offers drafts which sync across user devices, such as when a user starts typing a message on one device and can later continue on another. The draft will persist in the editing area on any device until it is sent or removed. All chats, including groups and channels, can be sorted into custom folders set by the user. Users have the option to schedule messages in personal chats to be sent when the other side comes online. Users can also import chat history, including both messages and media, from WhatsApp, Line and Kakaotalk due to data portability, either making a new chat to hold the messages or adding them to an existing one.
+                
+                The transmission of cloud messages to  servers is encrypted with the service's MTProto protocol, while 'Secret Chats' use end-to-end encryption based on the same protocol. According to privacy policy, "all data is stored heavily encrypted and the encryption keys in each case are stored in several other data centers in different jurisdictions. This way local engineers or physical intruders cannot get access to users' data".The local message database is not encrypted by default. </p>
+
+                <h4>ii)How User Account Is Made</h4>
+                <p> Accounts are tied to telephone numbers and are verified by SMS. Account creation requires an mobile device regardless of the platform intended to be used. Users can add multiple devices to their account and receive messages on all of them. Connected devices can be removed individually or all at once. The associated number can be changed at any time and when doing so, the user's contacts will receive the new number automatically. In addition, a user can set up a username as an alias that allows them to send and receive messages without exposing their phone number. User accounts can be deleted at any time and they are deleted automatically after six months of inactivity by default, which can optionally be changed from 1 month at the shortest up to 12 months at most with a range between. Users can replace exact "last seen" timestamps with broader messages such as "last seen recently".
+
+                    The default method of authentication that uses for logins is SMS-based single-factor authentication. A one-time passcode that is sent via SMS to the user's phone number is required to log into the account by default. Users also have the option to create a password as a form of two-step verification.
+                    
+                    The App allows groups, bots and channels with a verified social media or Wikipedia page to be verified but not user accounts.</p>
+
+              
+               <h4>iii) Channels</h4>
+               <p>Channels are a form of one-way messaging where admins are able to post messages but other users are not. Any user is able to create and subscribe to channels. Channels can be created for broadcasting messages to an unlimited number of subscribers. Channels can be publicly available with an alias and a permanent URL so anyone can join. Users who join a channel can see the entire message history. Users can join and leave channels at any time. Depending on a channel's settings, messages may be signed with the channel's name or with the username of the admin who posted them. Non-admin users are unable to see other users who've subscribed to the channel. The admin of the channel can view statistics about channel activity as each message has its own view counter, showing how many users have seen this message, including views from forwarded messages. the creator of a channel can add a discussion group, a separate group where messages in the channel are automatically posted for subscribers to communicate. This enables comments for posts in the channel.
+            </p>
+
+            <h4>iv) Video And Voice Calls</h4>
+            <p> The app introduced its own end-to-end encrypted voice calls. Connection is established as peer-to-peer whenever possible, otherwise the closest server to the client is used. There is a neural network working to learn various technical parameters about a call to provide better quality of the service for future uses.
+
+                Any group or channel admin can launch a chat, which will be open to all members and ongoing even if no one is currently using it. Admins can mute members by default or selectively as well create invite links that will add people as muted by default. Members can use the Raise Hand button to signal their desire to speak. A push-to-talk option is available on mobile versions, . Admins of groups or channels have the option to join as their group or channel, hiding their personal account. Users can also record chats with a red dot shown as a warning during the recording period.
+            
+            More feature added like video calling with end-to-end encryption. Picture-in-picture mode is also available so that users have the option to use the other functions of the app while remaining on the call.  Users can stream video from their camera, share their screen or do both simultaneously.  Group calls have support for selective screen sharing, split screen view and improved noise suppression. Group calls can withhold up to 1000 people to watch the streamed video and livestreams with unlimited participants.
+            </p>
+
+            <h4>v)Front End And Back End</h4>
+            <p>The frontend of the app is based purely on java with Angular, React, Vue, Node.js libraries.
+
+                Whereas the backend uses Apache HttpComponents, Apteligent, AspectJ, Bootstrap, Crashlytics, FlowXo, Google Cloud Messaging, Google Cloud Vision API, Google Maps, HTML5, MessageBird, nginx.</p>
+
+
+            <h3>Requirements Specification</h3>
+            <p>The app supports both ios and android with ios 9.0 and above and android 4.1 and above. Minimum ram 512mb and 8gb of storage other than it is easily runable in any device.</p>
+
+            <h3>System Design</h3>
+            <p style="text-align: center;"> User Module Digram</p>
+            <img src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1642672714/usermodule_uxx0px.png" alt="" srcset="">
+
+            <p style="text-align: center;">UseCase Diagram<p>
+            <img src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1642673046/USECASE_k4h2kw.png" alt="" srcset="">
+            
+            <p style="text-align: center;">Activity Diagram For Login</p>
+            <img src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1642673174/Screenshot_2022-01-07_at_13-57-23_SRS_FOR_CHAT_APPLICATION_o4jt1r.png" alt="" srcset="">
+
+            <p style="text-align: center;">Activity Diagram For Chatting</p>
+            <img  src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1642673338/Screenshot_2022-01-07_at_13-54-22_SRS_FOR_CHAT_APPLICATION_sevpv8.png" alt="" srcset="">
+
+            <p style="text-align: center;">ER Diagram</p>
+            <img src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1642673425/Screenshot_2022-01-07_at_13-35-01_SRS_FOR_CHAT_APPLICATION_m2le0f.png" alt="">
+
+            <p style="text-align: center;"> Class Diagram</p>
+            <img src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1642673102/Screenshot_2022-01-14_at_14-58-20_SRS_FOR_CHAT_APPLICATION_exyvdz.png" alt="" srcset="">
+
+            <img src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1642673854/Screenshot_2022-01-14_at_14-59-11_SRS_FOR_CHAT_APPLICATION_yay7yh.png" alt="" srcset="">
+
+            <p style="text-align: center;"> Sequence Diagram</p>
+            <img src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1642673945/Screenshot_2022-01-14_at_15-51-58_SRS_FOR_CHAT_APPLICATION_mspjn8.png" alt="">
+
+
+            <h3>Testing Methodology</h3>
+            <p>Testing is an essential part of the Software Development Process. A robust and stable software produc15 ptt can be delivered with the use of standard testing methodologies that will help to predict the timeline of the software system.
+                A software application may turn even more complex with a large number of platforms and devices. More importantly, it is required to ensure whether it meets the specified requirements and can be efficiently installed and operated on the user’s machine or not.
+                Testing methodologies are the methods that are used to test the functional and non-functional requirements of a Product. Each method has its own defined deliverables to ensure that the expected product is delivered to the customer.</p>
+
+                <img src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1642674143/testinf_cnk294.png" alt="">
+
+
+            <h4>Unit Testing</h4>    
+            <p>Unit testing is the testing of individual components of a product. This testing is done by the developer itself. Unit test cases are prepared before the test execution by the developers only. It is very important to execute all the unit test cases as it helps to detect the defect at an early stage.
+
+                Moreover, if the defect is not detected in unit testing, then it could lead to Major and Critical issues at the later stage which indeed would cost high to fix the same and will also take more time than the estimated time.
+                
+                While doing unit testing if the developer integrates two components to test to save time and the other component is not yet ready, then the developer uses stubs or drivers to perform his testing. If a defect occurs on the integrated system, then it becomes difficult to find the module, because of which the issue has occurred.
+                
+                Thus, testing a component individually is very important.</p>
+
+
+            <h4>Intergration Testing</h4>
+            <p>Integration testing is the testing when two or more modules are integrated or merged to test if the product works fine. Modules are integrated in a planned manner as per the integration plan.</p>
+
+            <img src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1642674361/int_testing_mxrlhy.png" alt="">
+
+            <h4>Sytem Testing</h4>
+            <p>In system testing, a system as a whole i.e. a completely developed system is tested to find defects. All the modules are integrated to test as a complete system. Scenarios prepared for system testing are run to find the defects.
+                All the modules of a product are integrated and tested to verify that the built product is as per the customer requirement. End-to-end testing is performed to cover the complete scenarios.</p>
+
+            <img src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1642674499/system_testing_sh1a9a.png" alt="">
+
+            <h3> Rough GUI</h3>
+            <p style="text-align: center;">Mobile App Gui</p>
+            <img src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1642675620/mobile_gui_c881hn.png" alt="">
+            
+            <p style="text-align: center;">Mac Gui</p>
+            <img src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1642675751/macgui_lx8coc.png" alt="">
+
+            <p style="text-align: center;">Windows Gui</p>
+            <img src="https://res.cloudinary.com/dxi9wcchp/image/upload/v1642675762/windowsgui_tuir2n.png" alt="">
+            </main>
+
+
+</body>
+</html>
